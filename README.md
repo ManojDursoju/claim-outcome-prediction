@@ -109,6 +109,15 @@ Rows represent actual outcomes and columns represent predicted outcomes.
 | Partially_Paid | 1 | 15 | 0 |
 | Denied | 0 | 5 | 3 |
 
+
+### Model Performance Analysis
+
+The Random Forest classifier achieved 87.50% accuracy and a macro F1-score of 0.75 on the held-out test set of 80 records.
+
+The model performed well in identifying Paid claims, while Denied claims had a lower recall of 0.38. This indicates that 5 out of 8 actual Denied claims were incorrectly classified as Partially_Paid.
+
+The results highlight the importance of minority-class evaluation rather than relying on accuracy alone.
+
 ### Findings and Improvement
 
 The model is weakest at identifying Denied claims, with a recall of 0.38. It correctly identifies 3 of the 8 denied claims in the test set and misses 5.
