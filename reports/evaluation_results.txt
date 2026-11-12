@@ -1,0 +1,23 @@
+CLAIM OUTCOME PREDICTION - MODEL EVALUATION
+==================================================
+Total records: 400
+Training records: 320
+Testing records: 80
+
+Accuracy: 0.8750
+
+Classification Report:
+                precision    recall  f1-score   support
+
+          Paid       0.98      0.93      0.95        56
+Partially_Paid       0.62      0.94      0.75        16
+        Denied       1.00      0.38      0.55         8
+
+      accuracy                           0.88        80
+     macro avg       0.87      0.75      0.75        80
+  weighted avg       0.91      0.88      0.87        80
+
+Confusion Matrix:
+[[52  4  0]
+ [ 1 15  0]
+ [ 0  5  3]]
